@@ -1,4 +1,4 @@
-!["Docker Pulls](https://img.shields.io/docker/pulls/suhaz786/elasticsearch.svg)
+!["Docker Pulls](https://img.shields.io/docker/pulls/suhaz786/ElasticSearchSprintBootRest.svg)
 
 Elasticsearch Java API SpringBoot
 ===================================================
