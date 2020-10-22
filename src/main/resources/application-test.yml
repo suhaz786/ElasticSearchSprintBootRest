@@ -1,0 +1,5 @@
+app:
+  clients:
+    httpPort: 9250
+  index:
+    name: suhas_test
