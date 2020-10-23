@@ -30,7 +30,7 @@ public class ESClientTest {
     @Autowired
     private QueryDAO dao;
 
-    private Document doc = new Document(null, "Hüseyin", "Akdoğan", "Hello!");
+    private Document doc = new Document(null, "Test Title", "Testing Subject", "Testable Content!");
 
     @Test
     public void testA() {
@@ -44,7 +44,7 @@ public class ESClientTest {
 
     @Test
     public void testC(){
-        assertFalse(dao.wildcardQuery("akd").isEmpty());
+        assertFalse(dao.wildcardQuery("test").isEmpty());
     }
 
     @Test
